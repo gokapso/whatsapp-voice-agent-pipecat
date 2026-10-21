@@ -71,6 +71,8 @@ Edit `bot.py`:
 - **Voice models**: Swap OpenAI services in `run_voice_pipeline` for other Pipecat-supported providers
 - **Idle timeout**: Adjust `idle_timeout_secs` in the `PipelineTask` constructor
 
+For an opt-in example using `SYSTEM_PROMPT`, see the [candidate voice assistant](examples/candidate-assistant/README.md). It answers questions about a résumé and provides contact details.
+
 ## Local development
 
 ```bash
